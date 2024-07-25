@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/e36ed800-c6c2-4f10-8607-b22db28085ee)![image](https://github.com/user-attachments/assets/d9b520ee-6500-4012-8a04-020c3c1124c2)# Prediction of Covid-19 and its impact on Humanity. 
+# Prediction of Covid-19 and its impact on Humanity. 
 ## OVERVIEW: 
  
 Coronaviruses (CoV) are a large family of viruses that cause illnesses ranging from the common cold to more severe diseases. A novel coronavirus (nCoV) is a new strain that has not been previously identified in humans. 	 
@@ -104,10 +104,87 @@ Inference:
   3.Africa has higher extreme poverty which also affects the life expectancy rate of the same continent. 
 ----------------
 #### Continent Life expectancy w.r.t cardiovascular death
-![image](https://github.com/user-attachments/assets/7f2baec5-876c-463c-b5cb-80e04e7d131e)
-
 <img src="https://github.com/sandhyasailakshmi/Portfolio/blob/main/Dashboard%20Views/KPI%20Page.png" class="center">
-Inference:
+# Inference:
+ 1.From the plot mentioned above, we can infer that the cardiovascular death rate is inversely proportional to the life expectancy of Covid affected people. 
+-----------------
+#### Life expectancy w.r.t diabetes prevalence 
+<img src="https://github.com/sandhyasailakshmi/Portfolio/blob/main/Dashboard%20Views/KPI%20Page.png" class="center">
+# Inference:
+ 1.If the diabetes prevalence is between 5 to 15 the life expectancy can be seen between 70 to 85. 
+ 2.We can see that as per continent the life expectancy for diabetes prevalence changes.
+------------------
+#### Availability of Hospital Beds w.r.t Total ICU Patients 
+<img src="https://github.com/sandhyasailakshmi/Portfolio/blob/main/Dashboard%20Views/KPI%20Page.png" class="center">
+# Inference:
+ 1.Availability of beds in Europe is 23.78 % but total ICU patients is 48.38% which is quite a higher number. 
+ 2.In North America is also the same as Europe and even worse as 15% of total beds availability and 49.12% of 
+   ICU patients were there which is the worst scenario for the continent. 
+## Base Model
+#### Total Cases w.r.t Total Tests 
+<img src="https://github.com/sandhyasailakshmi/Portfolio/blob/main/Dashboard%20Views/KPI%20Page.png" class="center">
+# Inference:
+  1.The value of Durbin-Watson test is 2.007. It signifies that there is no auto-correction. 
+  2.As the CN (Condition Number) Value are 6.12. We can say that there is no no-multicollinearity. 
+  3.Adj. R Square Value is 0.76 or 76% we can say that 76% Model is Correct
+ ------------------
+ #### Availability of ICU Beds and Hospital Beds
+ <img src="https://github.com/sandhyasailakshmi/Portfolio/blob/main/Dashboard%20Views/KPI%20Page.png" class="center">
+# Inference:
+  1.The value of Durbin-Watson test is 1.990. It signifies that there is no auto-correction as the value is near to 2. 
+  2.As the CN (Condition Number) Value are 5.33. We can say that there is no-multicollinearity as the value is less than 100. 
+  3.Adj. R Square Value is 1005 we can say that Model is over fitted because R-Square Value is 1. The value 1 tells us that the Model is over fitted. 
+  4.Also, all the P- values are less than 0.05 
+ -------------------
+ #### Impact of Vaccination on the severity of COVID 19 pandemic 
+ ## Moedel Before Transformation
+ <img src="https://github.com/sandhyasailakshmi/Portfolio/blob/main/Dashboard%20Views/KPI%20Page.png" class="center">
+ # Inference:
+  1.The value of Durbin-Watson test is 1.988. It signifies that there is no auto-correction as the value is near to 2. 
+  2.As the CN (Condition Number) Value are 8.63. We can say that there is no-multicollinearity as the value is less than 100.   
+  3.Adj. R Square Value is 1% we can say that Model is over fitted because R-Square Value is 1. The value 1 tells us that the Model is overfitted.
+  ## Model After Tramformation
+  <img src="https://github.com/sandhyasailakshmi/Portfolio/blob/main/Dashboard%20Views/KPI%20Page.png" class="center">
+  # Inference:
+  1.The previous model was over fitted. 
+  2.Now in this model we can see that this model is preforming better. 
+  3.The value of Durbin-Watson test is 2.002. It signifies that there is no auto-correction as the value is near to 2. 
+  4.As the CN (Condition Number) Value are 3.64. We can say that there is no-multicollinearity as the value is less than 100. 
+  5.Adj. R Square Value is 0.134 we can say that Model is best fitted because R-Square Value is 0.134. The value 0.134 tells us that the Model is best or normally fitted. 
+-------------------
+#### Impact of Vaccination on the severity of COVID 19 pandemic
+## Model with Logistic regression
+<img src="https://github.com/sandhyasailakshmi/Portfolio/blob/main/Dashboard%20Views/KPI%20Page.png" class="center">
+# Inference:
+  1.Pseudo R-square value is 0.072  
+  2.Log-Likelihood is the maximum value of the log-likelihood function. 
+  3.LL-Null is the maximum value of the log-likelihood. 
+  4.The LLR p-value is less than 0.05, implies that the model is significant.
+ ## Model after performing recursive feature elimination
+ <img src="https://github.com/sandhyasailakshmi/Portfolio/blob/main/Dashboard%20Views/KPI%20Page.png" class="center">
+# Inference:
+  1.The LLR p-value is greater than 0.05, implies that the model is not significant. 
+  2.Pseudo R-square value is -0.3898 negative, so this model is not a good fit model.
+---------------------
+#### Model Metrics
+<img src="https://github.com/sandhyasailakshmi/Portfolio/blob/main/Dashboard%20Views/KPI%20Page.png" class="center">
+# Inference:
+  1.For Decision Tree the Accuracy is 0.98, ROC-Score is 0.97, Precision is 0.960, F1-Score is 0.95, and Recall value is 0.95. 
+  2.For Random Forest the Accuracy is 0.98, ROC-Score is 0.97, Precision is 0.967, F1-Score is 0.96, and Recall value is 0.95. 
+  3.For Adaboost the Accuracy is 0.82, ROC-Score is 0.60, Precision is 0.63, F1-Score is 0.34, and Recall value is 0.23. 
+  4.For Gradient boost the Accuracy is 0.86, ROC-Score is 0.64, Precision is 0.82, F1-Score is 0.52, and Recall value is 0.38. 
+  5.For XgBoost the Accuracy is 0.85, ROC-Score is 0.63, Precision is 0.85, F1-Score is 0.42, and Recall value is 0.28. 
+  6.There was overfitting in our model as we can see that from decision tree and random forest by using ensembled techniques like Adaboost, 
+    Gradient and XGboost we dealt with accuracy   paradox and overfitting among the ensembled techniques w.r.t to gradient boosting we got 
+    better accuracy compared to other ensembled techniques. 
+
+
+
+
+
+
+
+
 
 
 
