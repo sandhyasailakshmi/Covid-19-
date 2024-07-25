@@ -55,14 +55,14 @@ We have replaced missing values with zeroes as replacing the same with Mean or M
 We then performed Explanatory Data Analysis on the data with different scenarios as follows:
 
 #### Total cases & Total deaths w.r.t each continent 
-<img src="https://github.com/sandhyasailakshmi/Portfolio/blob/main/Dashboard%20Views/KPI%20Page.png" class="center">
+<img src="https://github.com/sandhyasailakshmi/Covid-19-/blob/main/widget%20views/Total%20cases%20%26%20Total%20deaths%20w.r.t%20each%20continent.png" class="center">
 Inference: 
   1.Above plot shows the total number of covid-19 positive cases against the total population for the respective Continents. 
   2	Here blue graph covers the population and the orange graph covers the total number of Covid-19 positive cases. 
   3.Asia has the highest population and Europe and Asia have more Covid cases compared to other continents.
 ----------
 #### Total Covid positive cases against each continent covering the median of all ages 
-<img src="https://github.com/sandhyasailakshmi/Portfolio/blob/main/Dashboard%20Views/KPI%20Page.png" class="center">
+<img src="https://github.com/sandhyasailakshmi/Covid-19-/blob/main/widget%20views/Total%20Covid%20positive%20cases%20of%20all%20ages%20.png" class="center">
 Inference: 
   1.In the above scatter plot median age range refers to the age group of 20-40 years. 
   2.Above plot is showing the total number of covid cases of the above-mentioned age group and we have got the insight as Africa has less population as 
@@ -70,21 +70,21 @@ Inference:
   3.As per the plot it seems like Europe has no or very few positive cases for the people who are below the age of 35. 
 -------------
 #### Analysis of Total Tests, Total Cases W.R.T Population For Each Continent
-<img src="https://github.com/sandhyasailakshmi/Portfolio/blob/main/Dashboard%20Views/KPI%20Page.png" class="center">
+<img src="https://github.com/sandhyasailakshmi/Covid-19-/blob/main/widget%20views/Total%20Cases%20w.r.t%20Total%20Tests%20.png" class="center">
 Inference:
   1.North America has done the highest number of covid diagnoses and almost covered all the covid affected people but in South America, 
     it seems like the situation is worst and one-fourth part of the total affected people has been covered for diagnosis. 
   2.Asia & Europe has done a great job in terms of covid testing. these two continents have almost covered most of the affected people. 
 -------------
 #### Excess mortality w.r.t each continent 
-<img src="https://github.com/sandhyasailakshmi/Portfolio/blob/main/Dashboard%20Views/KPI%20Page.png" class="center">
+<img src="https://github.com/sandhyasailakshmi/Covid-19-/blob/main/widget%20views/Excess%20mortality%20w.r.t%20each%20continent.png" class="center">
 Inference:
   1.In the above plot Excess mortality rate is higher in Africa based on population as compared to other continents as we already saw the 
     population is less in Africa than in Asia despite the mortality rate being higher in Africa. 
   2.Oceania has less population than South America but the excess mortality rate is higher in Oceania. 
 --------------
 #### Impact of Vaccination on the severity of COVID 19 pandemic
-<img src="https://github.com/sandhyasailakshmi/Portfolio/blob/main/Dashboard%20Views/KPI%20Page.png" class="center">
+<img src="https://github.com/sandhyasailakshmi/Covid-19-/blob/main/widget%20views/Impact%20of%20Vaccination%20on%20the%20severity%20C-19.png" class="center">
 Inference:
   1.Asia: 283.7 % population was covered under the vaccination drive and positive cases were 19.83 and total deaths were 20.02 %. 
   2.South America: 114 % Vaccination done, 5.03 % Covid affected population and 23.67 % total deaths occurred due to covid. 
@@ -95,39 +95,40 @@ Inference:
   7.Africa and Oceania have done a very a smaller number of vaccinations.
 ---------------
 #### Life expectancy w.r.t various factors
-<img src="https://github.com/sandhyasailakshmi/Portfolio/blob/main/Dashboard%20Views/KPI%20Page.png" class="center">
+<img src="https://github.com/sandhyasailakshmi/Covid-19-/blob/main/widget%20views/Life%20expectancy%20w.r.t%20various%20factors.png" class="center">
 Inference:
   1.Oceania has more diabetic patients and it shows the life expectancy rate is lower in Oceania. 
   2.Cardiovascular diseases also affect the life expectancy rate for covid affected people. Africa has fewer cardio-related suffering people. 
   3.Africa has higher extreme poverty which also affects the life expectancy rate of the same continent. 
 ----------------
 #### Continent Life expectancy w.r.t cardiovascular death
-<img src="https://github.com/sandhyasailakshmi/Portfolio/blob/main/Dashboard%20Views/KPI%20Page.png" class="center">
+<img src="https://github.com/sandhyasailakshmi/Covid-19-/blob/main/widget%20views/Continent%20Life%20expectancy%20w.r.t%20cardiovascular%20death.png" class="center">
 # Inference:
  1.From the plot mentioned above, we can infer that the cardiovascular death rate is inversely proportional to the life expectancy of Covid affected people. 
 -----------------
 #### Life expectancy w.r.t diabetes prevalence 
-<img src="https://github.com/sandhyasailakshmi/Portfolio/blob/main/Dashboard%20Views/KPI%20Page.png" class="center">
+<img src="https://github.com/sandhyasailakshmi/Covid-19-/blob/main/widget%20views/Life%20expectancy%20w.r.t%20diabetes%20prevalence.png" class="center">
 # Inference:
  1.If the diabetes prevalence is between 5 to 15 the life expectancy can be seen between 70 to 85. 
  2.We can see that as per continent the life expectancy for diabetes prevalence changes.
 ------------------
 #### Availability of Hospital Beds w.r.t Total ICU Patients 
-<img src="https://github.com/sandhyasailakshmi/Portfolio/blob/main/Dashboard%20Views/KPI%20Page.png" class="center">
+<img src="https://github.com/sandhyasailakshmi/Covid-19-/blob/main/widget%20views/Availability%20of%20Hospital%20Beds%20w.r.t%20Total%20ICU%20Patients%20.png" class="center">
 # Inference:
  1.Availability of beds in Europe is 23.78 % but total ICU patients is 48.38% which is quite a higher number. 
  2.In North America is also the same as Europe and even worse as 15% of total beds availability and 49.12% of 
    ICU patients were there which is the worst scenario for the continent. 
+   
 ## Base Model
 #### Total Cases w.r.t Total Tests 
-<img src="https://github.com/sandhyasailakshmi/Portfolio/blob/main/Dashboard%20Views/KPI%20Page.png" class="center">
+<img src="https://github.com/sandhyasailakshmi/Covid-19-/blob/main/widget%20views/Total%20Cases%20w.r.t%20Total%20Tests%20.png" class="center">
 # Inference:
   1.The value of Durbin-Watson test is 2.007. It signifies that there is no auto-correction. 
   2.As the CN (Condition Number) Value are 6.12. We can say that there is no no-multicollinearity. 
   3.Adj. R Square Value is 0.76 or 76% we can say that 76% Model is Correct
  ------------------
  #### Availability of ICU Beds and Hospital Beds
- <img src="https://github.com/sandhyasailakshmi/Portfolio/blob/main/Dashboard%20Views/KPI%20Page.png" class="center">
+ <img src="https://github.com/sandhyasailakshmi/Covid-19-/blob/main/widget%20views/Availability%20of%20ICU%20Beds%20and%20Hospital%20Beds.png" class="center">
 # Inference:
   1.The value of Durbin-Watson test is 1.990. It signifies that there is no auto-correction as the value is near to 2. 
   2.As the CN (Condition Number) Value are 5.33. We can say that there is no-multicollinearity as the value is less than 100. 
@@ -136,13 +137,13 @@ Inference:
  -------------------
  #### Impact of Vaccination on the severity of COVID 19 pandemic 
  ## Moedel Before Transformation
- <img src="https://github.com/sandhyasailakshmi/Portfolio/blob/main/Dashboard%20Views/KPI%20Page.png" class="center">
+ <img src="https://github.com/sandhyasailakshmi/Covid-19-/blob/main/widget%20views/Impact%20of%20Vaccination%20on%20the%20severity%20of%20COVID%2019%20pandemic%20(before).png" class="center">
  # Inference:
   1.The value of Durbin-Watson test is 1.988. It signifies that there is no auto-correction as the value is near to 2. 
   2.As the CN (Condition Number) Value are 8.63. We can say that there is no-multicollinearity as the value is less than 100.   
   3.Adj. R Square Value is 1% we can say that Model is over fitted because R-Square Value is 1. The value 1 tells us that the Model is overfitted.
   ## Model After Tramformation
-  <img src="https://github.com/sandhyasailakshmi/Portfolio/blob/main/Dashboard%20Views/KPI%20Page.png" class="center">
+  <img src="https://github.com/sandhyasailakshmi/Covid-19-/blob/main/widget%20views/Impact%20of%20Vaccination%20on%20the%20severity%20of%20COVID%2019%20pandemic%20(after).png" class="center">
   # Inference:
   1.The previous model was over fitted. 
   2.Now in this model we can see that this model is preforming better. 
@@ -152,14 +153,14 @@ Inference:
 -------------------
 #### Impact of Vaccination on the severity of COVID 19 pandemic
 ## Model with Logistic regression
-<img src="https://github.com/sandhyasailakshmi/Portfolio/blob/main/Dashboard%20Views/KPI%20Page.png" class="center">
+<img src="https://github.com/sandhyasailakshmi/Covid-19-/blob/main/widget%20views/Impact%20of%20Vaccination%20on%20the%20severity%20of%20COVID%2019%20pandemic%20(LR).png" class="center">
 # Inference:
   1.Pseudo R-square value is 0.072  
   2.Log-Likelihood is the maximum value of the log-likelihood function. 
   3.LL-Null is the maximum value of the log-likelihood. 
   4.The LLR p-value is less than 0.05, implies that the model is significant.
  ## Model after performing recursive feature elimination
- <img src="https://github.com/sandhyasailakshmi/Portfolio/blob/main/Dashboard%20Views/KPI%20Page.png" class="center">
+ <img src="https://github.com/sandhyasailakshmi/Covid-19-/blob/main/widget%20views/Impact%20of%20Vaccination%20on%20the%20severity%20of%20COVID%2019%20pandemic%20(LR-RFE).png" class="center">
 # Inference:
   1.The LLR p-value is greater than 0.05, implies that the model is not significant. 
   2.Pseudo R-square value is -0.3898 negative, so this model is not a good fit model.
