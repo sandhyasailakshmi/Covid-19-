@@ -3,23 +3,22 @@
  
 Coronaviruses (CoV) are a large family of viruses that cause illnesses ranging from the common cold to more severe diseases. A novel coronavirus (nCoV) is a new strain that has not been previously identified in humans. 	 
 Coronaviruses occur when one of the following occurs:
-
-    •	COVID‑19 transmits when people breathe in air contaminated by droplets and small airborne particles containing the virus. 
-    •	When people have less immunity system. 
-    •	Observed more in people who are already diagnosed with other diseases such as respiratory system. 
+  1.COVID‑19 transmits when people breathe in air contaminated by droplets and small airborne particles containing the virus. 
+  2.When people have less immunity system. 
+  3.Observed more in people who are already diagnosed with other diseases such as respiratory system. 
  
 Coronavirus disease 2019 (COVID 19) is a spreading ailment caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). The first known case was identified in Wuhan, China, in December 2019. The disease has since been transmitted worldwide, leading to an ongoing pandemic.  
 Symptoms of COVID‑19 are variable, but often include: 
-
-    •	Fever, cough, headache, fatigue, breathing difficulties, loss of smell and taste. 
-    •	Symptoms may begin one to fourteen days after exposure to the virus.  
+  1.Fever, cough, headache, fatigue, breathing difficulties, loss of smell and taste. 
+  2.Symptoms may begin one to fourteen days after exposure to the virus.  
   
 At least a third of people who are infected do not develop noticeable symptoms. Of those people who develop symptoms noticeable enough to be classed as patients:
 
-    •	Most (81%) develop mild to moderate symptoms (up to mild pneumonia), 
-    •	while 14% develop severe symptoms (dyspnoea, hypoxia, or more than 50% lung involvement on imaging),  
-    •	5% suffer critical symptoms (respiratory failure, shock, or multi-organ dysfunction). 
- Older people are at a higher risk of developing severe symptoms. Some people continue to experience a range of effects (long COVID) for months after recovery, and damage to organs has   been observed. 
+   1.Most (81%) develop mild to moderate symptoms (up to mild pneumonia), 
+   2.while 14% develop severe symptoms (dyspnoea, hypoxia, or more than 50% lung involvement on imaging),  
+   3.5% suffer critical symptoms (respiratory failure, shock, or multi-organ dysfunction). 
+   4.Older people are at a higher risk of developing severe symptoms. Some people continue to experience a range of effects (long COVID) for months after recovery, 
+     and damage to organs has been observed. 
 
  ## Approach:
  1.RoadMap
@@ -31,29 +30,28 @@ At least a third of people who are infected do not develop noticeable symptoms. 
  7.Feature Selection 
  8.Evaluate and deploy Model 
 
- ## Problem understanding 
+## Problem understanding 
 Model prediction for Total cases w.r.t. total test 
- 
-     o Analysis of total tests done and out of which confirmed cases have been discovered. 
+ 1.Analysis of total tests done and out of which confirmed cases have been discovered. 
 Impact of Vaccination on the severity of COVID 19 pandemic 
-
-    o Global vaccine development efforts have been accelerated in response to the devastating COVID-19 pandemic. 
-      We evaluated the impact of a 2-dose COVID-19 vaccination campaign on   
-      reducing the incidences, hospitalizations, and deaths.
+ 1.Global vaccine development efforts have been accelerated in response to the devastating COVID-19 pandemic. 
+   We evaluated the impact of a 2-dose COVID-19 vaccination campaign on   
+   reducing the incidences, hospitalizations, and deaths.
+   
 ## Proposed solution to the problem 
-1.  The Dataset represents 2 years (2020-2022) of covid-19 data of the entire world. 
-2.  It includes over 66 features representing the impact of covid-19 on human lives. 
+1. The Dataset represents 2 years (2020-2022) of covid-19 data of the entire world. 
+2. It includes over 66 features representing the impact of covid-19 on human lives. 
 3.	Impact of covid-19 vaccination & what is the positivity rate after vaccination. 
 4.	Life expectancy for the people already diagnosed with another disease. 
 5.	Hospital beds availability as per ICU patients.
 
-** Data Cleaning: 
+## Data Cleaning: 
 Originally, we had trashed data, So, we had flourish data by data cleaning procedures and optimized the original data by identifying and treating 
 missing values and there were outliers present in our dataset. 
 Since we have 4 problems and it was identified that for some features null value treatment was required essentially.
 We have replaced missing values with zeroes as replacing the same with Mean or Median won’t be appropriate.
 
-## Explanatory Data Analysis 
+## Explanatory Data Analysis:
 We then performed Explanatory Data Analysis on the data with different scenarios as follows:
 
 #### Total cases & Total deaths w.r.t each continent 
@@ -166,6 +164,7 @@ Inference:
   1.The LLR p-value is greater than 0.05, implies that the model is not significant. 
   2.Pseudo R-square value is -0.3898 negative, so this model is not a good fit model.
 ---------------------
+
 #### Model Metrics
 <img src="https://github.com/sandhyasailakshmi/Portfolio/blob/main/Dashboard%20Views/KPI%20Page.png" class="center">
 # Inference:
